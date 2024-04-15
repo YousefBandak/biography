@@ -25,7 +25,6 @@ To view this webpage, follow these steps:
 ## Contact
 
 For more information, you can contact Yousef at:
-- Email: [202108603@bethlehem.edu](mailto:202108603@bethlehem.edu)
 - LinkedIn: [Yousef Albandak](https://www.linkedin.com/in/yousef-albandak-4955932a7/)
 - GitHub: [YousefBandak](https://github.com/YousefBandak)
 
