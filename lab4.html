@@ -1,0 +1,97 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB PAGE</title>
+    <style>
+        .grid-container1 {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            gap: 10px;
+            background-color: #2196F3;
+            padding: 10px;
+        }
+
+        .grid-container2 {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            gap: 10px;
+            background-color: #2196F3;
+            padding: 10px;
+        }
+
+        .grid-container1>div,
+        .grid-container2>div {
+            background-color: rgba(255, 255, 255, 0.8);
+            border: 1px solid black;
+            text-align: center;
+            font-size: 30px;
+        }
+
+        #main {
+            text-align: center;
+            color: #2196F3;
+        }
+
+        #bu {
+            width: 50%;
+        }
+
+        @media screen and (max-width: 800px) {
+
+            .grid-container1 {
+                grid-template-columns: auto auto;
+                background-color: olive;
+            }
+
+            .grid-container2 {
+                grid-template-columns: auto;
+                background-color: olive;
+            }
+        }
+
+        @media screen and (max-width: 400px) {
+            .grid-container1 {
+                grid-template-columns: auto;
+                background-color: yellow;
+            }
+
+            .grid-container2 {
+                background-color: yellow;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1 id="main">Web Page</h1>
+
+
+
+    <div class="grid-container1">
+        <div id="div1">
+            <h1>Academic</h1>
+            <p>My name is Yousef Albandak I study at Bethlehem University</p>
+            <img id="bu" src="BU-1.jpg" alt="Bethlehem University">
+        </div>
+        <div>
+            <h1>Faculty</h1>
+            <p>I am a student in Applied Sciences and Technology at BU</p>
+        </div>
+        <div>Studies</div>
+        <div>News</div>
+
+    </div>
+    <div class="grid-container2">
+        <div>div1</div>
+        <div>div2</div>
+        <div>div3</div>
+    </div>
+
+
+
+</body>
+
+</html>
